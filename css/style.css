@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.masthead {
+  height: calc(100vh - 50px);
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(2px);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../assets/banner.jpg") no-repeat center center fixed;
+}
+.masthead2 {
+  height: calc(100vh - 50px);
+  min-height: 500px;
+  background-image: url(../assets/codigo-fonte.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.btn {
+  transition: all 0.7s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.container-sm {
+  position: absolute;
+  left: 150px;
+  top: 210px;
+  z-index: 1;
+  color: white;
+}
+
+@media (max-width: 770px) {
+  .container-sm {
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    z-index: 1;
+    color: white;
+  }
+  
+  
+}
